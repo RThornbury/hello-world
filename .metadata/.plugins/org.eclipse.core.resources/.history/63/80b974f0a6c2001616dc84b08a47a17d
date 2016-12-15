@@ -14,7 +14,6 @@ public class TestHelloWorld {
 	public void test() {
 		int expected = 20;
 		int actual = HelloWorld.square(4);
-		hklj
 		
 		assertEquals(expected, actual);
 	}
