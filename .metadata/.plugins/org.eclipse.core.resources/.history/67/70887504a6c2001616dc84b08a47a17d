@@ -12,7 +12,7 @@ public class TestHelloWorld {
 
 	@Test
 	public void test() {
-		int expected = 20;
+		int expected = 16;
 		int actual = HelloWorld.square(4);
 		
 		assertEquals(expected, actual);
