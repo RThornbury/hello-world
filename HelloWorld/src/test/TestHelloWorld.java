@@ -1,0 +1,21 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import code.HelloWorld;
+
+public class TestHelloWorld {
+	
+	HelloWorld h1 = new HelloWorld();
+
+	@Test
+	public void test() {
+		int expected = 16;
+		int actual = HelloWorld.square(4);
+		
+		assertEquals(expected, actual);
+	}
+
+}
